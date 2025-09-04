@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
+  "env": {
+    "FREEPIK_API_KEY": "@freepik_api_key",
+    "OPENAI_API_KEY": "@openai_api_key",
+    "LICENSE_FILTER": "@license_filter",
+    "SAFE_SEARCH": "@safe_search",
+    "MAX_RESULTS_PER_SOURCE": "@max_results_per_source"
+  }
+}
