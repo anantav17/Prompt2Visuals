@@ -1,0 +1,28 @@
+{
+  "name": "prompt2visuals",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "sharp": "^0.33.1",
+    "axios": "^1.6.8",
+    "react-easy-crop": "^5.0.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/react": "^18.2.14",
+    "@types/node": "^20.8.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.2"
+  }
+}
